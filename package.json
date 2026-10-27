@@ -1,0 +1,13 @@
+{
+  "name": "effortless-opencode",
+  "version": "0.1.0",
+  "description": "effortless for OpenCode and local models: a judge model picks the reasoning effort for every prompt.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test opencode/core.test.ts",
+    "e2e": "bash opencode/test/e2e.sh",
+    "bench": "node --experimental-strip-types opencode/bench-cli.ts"
+  }
+}

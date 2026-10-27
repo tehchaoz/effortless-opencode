@@ -1,0 +1,6005 @@
+{
+ "source": {
+  "version": "1.72.0",
+  "commit": "e5c590dfd9402244ea66a8bf795d1cb86d1df7b9",
+  "repo": "https://github.com/HeyCubit/effortless"
+ },
+ "isFollowUp": [
+  {
+   "in": "what does the -r flag do in cp?",
+   "out": false
+  },
+  {
+   "in": "rename the variable usr to user in auth.ts",
+   "out": false
+  },
+  {
+   "in": "fix the typo in the README title, it says 'Instalation'",
+   "out": false
+  },
+  {
+   "in": "thanks, that worked!",
+   "out": false
+  },
+  {
+   "in": "what time zone is CET in UTC terms?",
+   "out": false
+  },
+  {
+   "in": "vad heter kommandot för att lista git-grenar?",
+   "out": false
+  },
+  {
+   "in": "bump the version in package.json to 2.4.1",
+   "out": false
+  },
+  {
+   "in": "show me the last 5 commits",
+   "out": false
+  },
+  {
+   "in": "add a dark mode toggle to the settings page, it should persist in localStorage",
+   "out": false
+  },
+  {
+   "in": "write unit tests for the parseDate helper in utils/date.ts",
+   "out": false
+  },
+  {
+   "in": "explain how the caching layer in src/cache works",
+   "out": false
+  },
+  {
+   "in": "the login button does nothing on mobile safari, can you look?",
+   "out": false
+  },
+  {
+   "in": "add pagination to the /api/orders endpoint, 50 per page",
+   "out": false
+  },
+  {
+   "in": "skriv en kort produkttext för vår nya proteinpulver-smak, mango, max 60 ord",
+   "out": false
+  },
+  {
+   "in": "convert this component from a class to hooks",
+   "out": false
+  },
+  {
+   "in": "make the footer sticky and match the header colors",
+   "out": false
+  },
+  {
+   "in": "draft an email to our supplier asking to move the delivery to next Friday",
+   "out": false
+  },
+  {
+   "in": "why is this test flaky? it passes locally but fails in CI about 1 in 5 runs",
+   "out": false
+  },
+  {
+   "in": "migrate the whole app from REST to GraphQL, keep the old endpoints working until clients move",
+   "out": false
+  },
+  {
+   "in": "we're leaking memory in production, heap grows ~200MB/hour. find it",
+   "out": false
+  },
+  {
+   "in": "review the entire repo for security issues before we go public",
+   "out": false
+  },
+  {
+   "in": "design the database schema and sync protocol for offline-first multi-device editing",
+   "out": false
+  },
+  {
+   "in": "refactor the payment module into separate services, there are 40 files touching it",
+   "out": false
+  },
+  {
+   "in": "race condition: two workers sometimes process the same job twice. only under load. fix it properly",
+   "out": false
+  },
+  {
+   "in": "clean up my whole drive",
+   "out": false
+  },
+  {
+   "in": "migrate everything to typescript",
+   "out": false
+  },
+  {
+   "in": "make it production ready",
+   "out": false
+  },
+  {
+   "in": "gör om hela sajten mobilanpassad",
+   "out": false
+  },
+  {
+   "in": "fix all failing tests",
+   "out": false
+  },
+  {
+   "in": "B",
+   "out": true
+  },
+  {
+   "in": "yes",
+   "out": true
+  },
+  {
+   "in": "2",
+   "out": true
+  },
+  {
+   "in": "info",
+   "out": true
+  },
+  {
+   "in": "ja kör alla fyra",
+   "out": false
+  },
+  {
+   "in": "inter",
+   "out": true
+  },
+  {
+   "in": "do it",
+   "out": true
+  },
+  {
+   "in": "go",
+   "out": true
+  },
+  {
+   "in": "continue",
+   "out": true
+  },
+  {
+   "in": "kör",
+   "out": true
+  },
+  {
+   "in": "go through all my Notion tasks and tell me what's overdue",
+   "out": false
+  },
+  {
+   "in": "research the top 5 competitors in Nordic sports nutrition and compare pricing, with sources",
+   "out": false
+  },
+  {
+   "in": "summarize this meeting note in 3 bullets",
+   "out": false
+  },
+  {
+   "in": "plan our next three product drops with deadlines, assets and who does what",
+   "out": false
+  },
+  {
+   "in": "translate this paragraph to Swedish",
+   "out": false
+  },
+  {
+   "in": "what effort are you using?",
+   "out": false
+  },
+  {
+   "in": "how much effort should I use for a big refactor?",
+   "out": false
+  },
+  {
+   "in": "think really hard about this: why does our churn spike every March? here's 2 years of data in data/churn.csv",
+   "out": false
+  },
+  {
+   "in": "what's the shortcut to comment a line in VS Code?",
+   "out": false
+  },
+  {
+   "in": "delete the unused import on line 3 of main.py",
+   "out": false
+  },
+  {
+   "in": "ok perfect, thank you so much",
+   "out": false
+  },
+  {
+   "in": "add input validation to the signup form: email format, password min 8 chars, show errors inline",
+   "out": false
+  },
+  {
+   "in": "the CSV export puts dates in the wrong timezone, fix it",
+   "out": false
+  },
+  {
+   "in": "write a README section explaining how to run the project locally",
+   "out": false
+  },
+  {
+   "in": "our checkout drops ~3% of orders silently, nothing in the logs. figure out why",
+   "out": false
+  },
+  {
+   "in": "port the whole iOS app's networking layer to async/await, ~60 files",
+   "out": false
+  },
+  {
+   "in": "rewrite the backend in Go",
+   "out": false
+  },
+  {
+   "in": "audit all our dependencies",
+   "out": false
+  },
+  {
+   "in": "no",
+   "out": true
+  },
+  {
+   "in": "the second one",
+   "out": false
+  },
+  {
+   "in": "blue",
+   "out": true
+  },
+  {
+   "in": "yes all of it",
+   "out": false
+  },
+  {
+   "in": "next",
+   "out": true
+  },
+  {
+   "in": "write tests for the parseDate helper",
+   "out": false
+  },
+  {
+   "in": "write a polite reply declining the meeting on Thursday",
+   "out": false
+  },
+  {
+   "in": "analyse last quarter's sales in sales.xlsx and tell me which products are dropping and why",
+   "out": false
+  },
+  {
+   "in": "ultrathink: is our caching strategy going to survive 10x traffic? look at src/cache and the infra config",
+   "out": false
+  },
+  {
+   "in": "quick question, no need to dig: is redis single-threaded?",
+   "out": false
+  },
+  {
+   "in": "The same shapes, 100%",
+   "out": false
+  },
+  {
+   "in": "Yes, but it can probably archive the one you're at and create a new one, but not show the new one directly. It can create it and show you that this one is archived, and then you can get to the next session. Maybe a button in the UI that opens that session.",
+   "out": false
+  },
+  {
+   "in": "",
+   "out": false
+  },
+  {
+   "in": " ",
+   "out": false
+  },
+  {
+   "in": "ok",
+   "out": true
+  },
+  {
+   "in": "yes please",
+   "out": true
+  },
+  {
+   "in": "ok go ahead",
+   "out": false
+  },
+  {
+   "in": "thanks!",
+   "out": true
+  },
+  {
+   "in": "sure",
+   "out": true
+  },
+  {
+   "in": "k",
+   "out": true
+  },
+  {
+   "in": "nope",
+   "out": true
+  },
+  {
+   "in": "ja",
+   "out": true
+  },
+  {
+   "in": "max effort",
+   "out": true
+  },
+  {
+   "in": "use max effort please",
+   "out": false
+  },
+  {
+   "in": "effort: high",
+   "out": true
+  },
+  {
+   "in": "effort to low",
+   "out": false
+  },
+  {
+   "in": "set effort at medium",
+   "out": false
+  },
+  {
+   "in": "xhigh",
+   "out": true
+  },
+  {
+   "in": "don't use max effort",
+   "out": false
+  },
+  {
+   "in": "without high effort",
+   "out": false
+  },
+  {
+   "in": "a medium sized image of a cat",
+   "out": false
+  },
+  {
+   "in": "run this at extra high effort",
+   "out": false
+  },
+  {
+   "in": "extra-high effort",
+   "out": false
+  },
+  {
+   "in": "low effort",
+   "out": true
+  },
+  {
+   "in": "maximum effort",
+   "out": false
+  },
+  {
+   "in": "effort level high",
+   "out": false
+  },
+  {
+   "in": "the effort is high today",
+   "out": false
+  },
+  {
+   "in": "no problem",
+   "out": true
+  },
+  {
+   "in": "no worries thanks",
+   "out": false
+  },
+  {
+   "in": "nah that is wrong",
+   "out": false
+  },
+  {
+   "in": "that's wrong",
+   "out": true
+  },
+  {
+   "in": "it doesn't work",
+   "out": false
+  },
+  {
+   "in": "still broken",
+   "out": true
+  },
+  {
+   "in": "still not working",
+   "out": false
+  },
+  {
+   "in": "try again",
+   "out": true
+  },
+  {
+   "in": "redo it",
+   "out": true
+  },
+  {
+   "in": "you missed one",
+   "out": false
+  },
+  {
+   "in": "fel",
+   "out": true
+  },
+  {
+   "in": "funkar inte",
+   "out": true
+  },
+  {
+   "in": "it still fails after the change",
+   "out": false
+  },
+  {
+   "in": "works great",
+   "out": true
+  },
+  {
+   "in": "not what I meant",
+   "out": false
+  }
+ ],
+ "namedEffort": [
+  {
+   "in": "what does the -r flag do in cp?",
+   "out": null
+  },
+  {
+   "in": "rename the variable usr to user in auth.ts",
+   "out": null
+  },
+  {
+   "in": "fix the typo in the README title, it says 'Instalation'",
+   "out": null
+  },
+  {
+   "in": "thanks, that worked!",
+   "out": null
+  },
+  {
+   "in": "what time zone is CET in UTC terms?",
+   "out": null
+  },
+  {
+   "in": "vad heter kommandot för att lista git-grenar?",
+   "out": null
+  },
+  {
+   "in": "bump the version in package.json to 2.4.1",
+   "out": null
+  },
+  {
+   "in": "show me the last 5 commits",
+   "out": null
+  },
+  {
+   "in": "add a dark mode toggle to the settings page, it should persist in localStorage",
+   "out": null
+  },
+  {
+   "in": "write unit tests for the parseDate helper in utils/date.ts",
+   "out": null
+  },
+  {
+   "in": "explain how the caching layer in src/cache works",
+   "out": null
+  },
+  {
+   "in": "the login button does nothing on mobile safari, can you look?",
+   "out": null
+  },
+  {
+   "in": "add pagination to the /api/orders endpoint, 50 per page",
+   "out": null
+  },
+  {
+   "in": "skriv en kort produkttext för vår nya proteinpulver-smak, mango, max 60 ord",
+   "out": null
+  },
+  {
+   "in": "convert this component from a class to hooks",
+   "out": null
+  },
+  {
+   "in": "make the footer sticky and match the header colors",
+   "out": null
+  },
+  {
+   "in": "draft an email to our supplier asking to move the delivery to next Friday",
+   "out": null
+  },
+  {
+   "in": "why is this test flaky? it passes locally but fails in CI about 1 in 5 runs",
+   "out": null
+  },
+  {
+   "in": "migrate the whole app from REST to GraphQL, keep the old endpoints working until clients move",
+   "out": null
+  },
+  {
+   "in": "we're leaking memory in production, heap grows ~200MB/hour. find it",
+   "out": null
+  },
+  {
+   "in": "review the entire repo for security issues before we go public",
+   "out": null
+  },
+  {
+   "in": "design the database schema and sync protocol for offline-first multi-device editing",
+   "out": null
+  },
+  {
+   "in": "refactor the payment module into separate services, there are 40 files touching it",
+   "out": null
+  },
+  {
+   "in": "race condition: two workers sometimes process the same job twice. only under load. fix it properly",
+   "out": null
+  },
+  {
+   "in": "clean up my whole drive",
+   "out": null
+  },
+  {
+   "in": "migrate everything to typescript",
+   "out": null
+  },
+  {
+   "in": "make it production ready",
+   "out": null
+  },
+  {
+   "in": "gör om hela sajten mobilanpassad",
+   "out": null
+  },
+  {
+   "in": "fix all failing tests",
+   "out": null
+  },
+  {
+   "in": "B",
+   "out": null
+  },
+  {
+   "in": "yes",
+   "out": null
+  },
+  {
+   "in": "2",
+   "out": null
+  },
+  {
+   "in": "info",
+   "out": null
+  },
+  {
+   "in": "ja kör alla fyra",
+   "out": null
+  },
+  {
+   "in": "inter",
+   "out": null
+  },
+  {
+   "in": "do it",
+   "out": null
+  },
+  {
+   "in": "go",
+   "out": null
+  },
+  {
+   "in": "continue",
+   "out": null
+  },
+  {
+   "in": "kör",
+   "out": null
+  },
+  {
+   "in": "go through all my Notion tasks and tell me what's overdue",
+   "out": null
+  },
+  {
+   "in": "research the top 5 competitors in Nordic sports nutrition and compare pricing, with sources",
+   "out": null
+  },
+  {
+   "in": "summarize this meeting note in 3 bullets",
+   "out": null
+  },
+  {
+   "in": "plan our next three product drops with deadlines, assets and who does what",
+   "out": null
+  },
+  {
+   "in": "translate this paragraph to Swedish",
+   "out": null
+  },
+  {
+   "in": "what effort are you using?",
+   "out": null
+  },
+  {
+   "in": "how much effort should I use for a big refactor?",
+   "out": null
+  },
+  {
+   "in": "think really hard about this: why does our churn spike every March? here's 2 years of data in data/churn.csv",
+   "out": null
+  },
+  {
+   "in": "what's the shortcut to comment a line in VS Code?",
+   "out": null
+  },
+  {
+   "in": "delete the unused import on line 3 of main.py",
+   "out": null
+  },
+  {
+   "in": "ok perfect, thank you so much",
+   "out": null
+  },
+  {
+   "in": "add input validation to the signup form: email format, password min 8 chars, show errors inline",
+   "out": null
+  },
+  {
+   "in": "the CSV export puts dates in the wrong timezone, fix it",
+   "out": null
+  },
+  {
+   "in": "write a README section explaining how to run the project locally",
+   "out": null
+  },
+  {
+   "in": "our checkout drops ~3% of orders silently, nothing in the logs. figure out why",
+   "out": null
+  },
+  {
+   "in": "port the whole iOS app's networking layer to async/await, ~60 files",
+   "out": null
+  },
+  {
+   "in": "rewrite the backend in Go",
+   "out": null
+  },
+  {
+   "in": "audit all our dependencies",
+   "out": null
+  },
+  {
+   "in": "no",
+   "out": null
+  },
+  {
+   "in": "the second one",
+   "out": null
+  },
+  {
+   "in": "blue",
+   "out": null
+  },
+  {
+   "in": "yes all of it",
+   "out": null
+  },
+  {
+   "in": "next",
+   "out": null
+  },
+  {
+   "in": "write tests for the parseDate helper",
+   "out": null
+  },
+  {
+   "in": "write a polite reply declining the meeting on Thursday",
+   "out": null
+  },
+  {
+   "in": "analyse last quarter's sales in sales.xlsx and tell me which products are dropping and why",
+   "out": null
+  },
+  {
+   "in": "ultrathink: is our caching strategy going to survive 10x traffic? look at src/cache and the infra config",
+   "out": null
+  },
+  {
+   "in": "quick question, no need to dig: is redis single-threaded?",
+   "out": null
+  },
+  {
+   "in": "The same shapes, 100%",
+   "out": null
+  },
+  {
+   "in": "Yes, but it can probably archive the one you're at and create a new one, but not show the new one directly. It can create it and show you that this one is archived, and then you can get to the next session. Maybe a button in the UI that opens that session.",
+   "out": null
+  },
+  {
+   "in": "",
+   "out": null
+  },
+  {
+   "in": " ",
+   "out": null
+  },
+  {
+   "in": "ok",
+   "out": null
+  },
+  {
+   "in": "yes please",
+   "out": null
+  },
+  {
+   "in": "ok go ahead",
+   "out": null
+  },
+  {
+   "in": "thanks!",
+   "out": null
+  },
+  {
+   "in": "sure",
+   "out": null
+  },
+  {
+   "in": "k",
+   "out": null
+  },
+  {
+   "in": "nope",
+   "out": null
+  },
+  {
+   "in": "ja",
+   "out": null
+  },
+  {
+   "in": "max effort",
+   "out": "max"
+  },
+  {
+   "in": "use max effort please",
+   "out": "max"
+  },
+  {
+   "in": "effort: high",
+   "out": "high"
+  },
+  {
+   "in": "effort to low",
+   "out": "low"
+  },
+  {
+   "in": "set effort at medium",
+   "out": "medium"
+  },
+  {
+   "in": "xhigh",
+   "out": "xhigh"
+  },
+  {
+   "in": "don't use max effort",
+   "out": null
+  },
+  {
+   "in": "without high effort",
+   "out": null
+  },
+  {
+   "in": "a medium sized image of a cat",
+   "out": null
+  },
+  {
+   "in": "run this at extra high effort",
+   "out": "xhigh"
+  },
+  {
+   "in": "extra-high effort",
+   "out": "xhigh"
+  },
+  {
+   "in": "low effort",
+   "out": "low"
+  },
+  {
+   "in": "maximum effort",
+   "out": "max"
+  },
+  {
+   "in": "effort level high",
+   "out": "high"
+  },
+  {
+   "in": "the effort is high today",
+   "out": null
+  },
+  {
+   "in": "no problem",
+   "out": null
+  },
+  {
+   "in": "no worries thanks",
+   "out": null
+  },
+  {
+   "in": "nah that is wrong",
+   "out": null
+  },
+  {
+   "in": "that's wrong",
+   "out": null
+  },
+  {
+   "in": "it doesn't work",
+   "out": null
+  },
+  {
+   "in": "still broken",
+   "out": null
+  },
+  {
+   "in": "still not working",
+   "out": null
+  },
+  {
+   "in": "try again",
+   "out": null
+  },
+  {
+   "in": "redo it",
+   "out": null
+  },
+  {
+   "in": "you missed one",
+   "out": null
+  },
+  {
+   "in": "fel",
+   "out": null
+  },
+  {
+   "in": "funkar inte",
+   "out": null
+  },
+  {
+   "in": "it still fails after the change",
+   "out": null
+  },
+  {
+   "in": "works great",
+   "out": null
+  },
+  {
+   "in": "not what I meant",
+   "out": null
+  }
+ ],
+ "looksLikeRedo": [
+  {
+   "in": "what does the -r flag do in cp?",
+   "out": false
+  },
+  {
+   "in": "rename the variable usr to user in auth.ts",
+   "out": false
+  },
+  {
+   "in": "fix the typo in the README title, it says 'Instalation'",
+   "out": false
+  },
+  {
+   "in": "thanks, that worked!",
+   "out": false
+  },
+  {
+   "in": "what time zone is CET in UTC terms?",
+   "out": false
+  },
+  {
+   "in": "vad heter kommandot för att lista git-grenar?",
+   "out": false
+  },
+  {
+   "in": "bump the version in package.json to 2.4.1",
+   "out": false
+  },
+  {
+   "in": "show me the last 5 commits",
+   "out": false
+  },
+  {
+   "in": "add a dark mode toggle to the settings page, it should persist in localStorage",
+   "out": false
+  },
+  {
+   "in": "write unit tests for the parseDate helper in utils/date.ts",
+   "out": false
+  },
+  {
+   "in": "explain how the caching layer in src/cache works",
+   "out": false
+  },
+  {
+   "in": "the login button does nothing on mobile safari, can you look?",
+   "out": false
+  },
+  {
+   "in": "add pagination to the /api/orders endpoint, 50 per page",
+   "out": false
+  },
+  {
+   "in": "skriv en kort produkttext för vår nya proteinpulver-smak, mango, max 60 ord",
+   "out": false
+  },
+  {
+   "in": "convert this component from a class to hooks",
+   "out": false
+  },
+  {
+   "in": "make the footer sticky and match the header colors",
+   "out": false
+  },
+  {
+   "in": "draft an email to our supplier asking to move the delivery to next Friday",
+   "out": false
+  },
+  {
+   "in": "why is this test flaky? it passes locally but fails in CI about 1 in 5 runs",
+   "out": false
+  },
+  {
+   "in": "migrate the whole app from REST to GraphQL, keep the old endpoints working until clients move",
+   "out": false
+  },
+  {
+   "in": "we're leaking memory in production, heap grows ~200MB/hour. find it",
+   "out": false
+  },
+  {
+   "in": "review the entire repo for security issues before we go public",
+   "out": false
+  },
+  {
+   "in": "design the database schema and sync protocol for offline-first multi-device editing",
+   "out": false
+  },
+  {
+   "in": "refactor the payment module into separate services, there are 40 files touching it",
+   "out": false
+  },
+  {
+   "in": "race condition: two workers sometimes process the same job twice. only under load. fix it properly",
+   "out": false
+  },
+  {
+   "in": "clean up my whole drive",
+   "out": false
+  },
+  {
+   "in": "migrate everything to typescript",
+   "out": false
+  },
+  {
+   "in": "make it production ready",
+   "out": false
+  },
+  {
+   "in": "gör om hela sajten mobilanpassad",
+   "out": true
+  },
+  {
+   "in": "fix all failing tests",
+   "out": false
+  },
+  {
+   "in": "B",
+   "out": false
+  },
+  {
+   "in": "yes",
+   "out": false
+  },
+  {
+   "in": "2",
+   "out": false
+  },
+  {
+   "in": "info",
+   "out": false
+  },
+  {
+   "in": "ja kör alla fyra",
+   "out": false
+  },
+  {
+   "in": "inter",
+   "out": false
+  },
+  {
+   "in": "do it",
+   "out": false
+  },
+  {
+   "in": "go",
+   "out": false
+  },
+  {
+   "in": "continue",
+   "out": false
+  },
+  {
+   "in": "kör",
+   "out": false
+  },
+  {
+   "in": "go through all my Notion tasks and tell me what's overdue",
+   "out": false
+  },
+  {
+   "in": "research the top 5 competitors in Nordic sports nutrition and compare pricing, with sources",
+   "out": false
+  },
+  {
+   "in": "summarize this meeting note in 3 bullets",
+   "out": false
+  },
+  {
+   "in": "plan our next three product drops with deadlines, assets and who does what",
+   "out": false
+  },
+  {
+   "in": "translate this paragraph to Swedish",
+   "out": false
+  },
+  {
+   "in": "what effort are you using?",
+   "out": false
+  },
+  {
+   "in": "how much effort should I use for a big refactor?",
+   "out": false
+  },
+  {
+   "in": "think really hard about this: why does our churn spike every March? here's 2 years of data in data/churn.csv",
+   "out": false
+  },
+  {
+   "in": "what's the shortcut to comment a line in VS Code?",
+   "out": false
+  },
+  {
+   "in": "delete the unused import on line 3 of main.py",
+   "out": false
+  },
+  {
+   "in": "ok perfect, thank you so much",
+   "out": false
+  },
+  {
+   "in": "add input validation to the signup form: email format, password min 8 chars, show errors inline",
+   "out": false
+  },
+  {
+   "in": "the CSV export puts dates in the wrong timezone, fix it",
+   "out": false
+  },
+  {
+   "in": "write a README section explaining how to run the project locally",
+   "out": false
+  },
+  {
+   "in": "our checkout drops ~3% of orders silently, nothing in the logs. figure out why",
+   "out": false
+  },
+  {
+   "in": "port the whole iOS app's networking layer to async/await, ~60 files",
+   "out": false
+  },
+  {
+   "in": "rewrite the backend in Go",
+   "out": false
+  },
+  {
+   "in": "audit all our dependencies",
+   "out": false
+  },
+  {
+   "in": "no",
+   "out": true
+  },
+  {
+   "in": "the second one",
+   "out": false
+  },
+  {
+   "in": "blue",
+   "out": false
+  },
+  {
+   "in": "yes all of it",
+   "out": false
+  },
+  {
+   "in": "next",
+   "out": false
+  },
+  {
+   "in": "write tests for the parseDate helper",
+   "out": false
+  },
+  {
+   "in": "write a polite reply declining the meeting on Thursday",
+   "out": false
+  },
+  {
+   "in": "analyse last quarter's sales in sales.xlsx and tell me which products are dropping and why",
+   "out": false
+  },
+  {
+   "in": "ultrathink: is our caching strategy going to survive 10x traffic? look at src/cache and the infra config",
+   "out": false
+  },
+  {
+   "in": "quick question, no need to dig: is redis single-threaded?",
+   "out": false
+  },
+  {
+   "in": "The same shapes, 100%",
+   "out": false
+  },
+  {
+   "in": "Yes, but it can probably archive the one you're at and create a new one, but not show the new one directly. It can create it and show you that this one is archived, and then you can get to the next session. Maybe a button in the UI that opens that session.",
+   "out": false
+  },
+  {
+   "in": "",
+   "out": false
+  },
+  {
+   "in": " ",
+   "out": false
+  },
+  {
+   "in": "ok",
+   "out": false
+  },
+  {
+   "in": "yes please",
+   "out": false
+  },
+  {
+   "in": "ok go ahead",
+   "out": false
+  },
+  {
+   "in": "thanks!",
+   "out": false
+  },
+  {
+   "in": "sure",
+   "out": false
+  },
+  {
+   "in": "k",
+   "out": false
+  },
+  {
+   "in": "nope",
+   "out": true
+  },
+  {
+   "in": "ja",
+   "out": false
+  },
+  {
+   "in": "max effort",
+   "out": false
+  },
+  {
+   "in": "use max effort please",
+   "out": false
+  },
+  {
+   "in": "effort: high",
+   "out": false
+  },
+  {
+   "in": "effort to low",
+   "out": false
+  },
+  {
+   "in": "set effort at medium",
+   "out": false
+  },
+  {
+   "in": "xhigh",
+   "out": false
+  },
+  {
+   "in": "don't use max effort",
+   "out": false
+  },
+  {
+   "in": "without high effort",
+   "out": false
+  },
+  {
+   "in": "a medium sized image of a cat",
+   "out": false
+  },
+  {
+   "in": "run this at extra high effort",
+   "out": false
+  },
+  {
+   "in": "extra-high effort",
+   "out": false
+  },
+  {
+   "in": "low effort",
+   "out": false
+  },
+  {
+   "in": "maximum effort",
+   "out": false
+  },
+  {
+   "in": "effort level high",
+   "out": false
+  },
+  {
+   "in": "the effort is high today",
+   "out": false
+  },
+  {
+   "in": "no problem",
+   "out": false
+  },
+  {
+   "in": "no worries thanks",
+   "out": false
+  },
+  {
+   "in": "nah that is wrong",
+   "out": true
+  },
+  {
+   "in": "that's wrong",
+   "out": true
+  },
+  {
+   "in": "it doesn't work",
+   "out": true
+  },
+  {
+   "in": "still broken",
+   "out": true
+  },
+  {
+   "in": "still not working",
+   "out": true
+  },
+  {
+   "in": "try again",
+   "out": true
+  },
+  {
+   "in": "redo it",
+   "out": true
+  },
+  {
+   "in": "you missed one",
+   "out": true
+  },
+  {
+   "in": "fel",
+   "out": true
+  },
+  {
+   "in": "funkar inte",
+   "out": true
+  },
+  {
+   "in": "it still fails after the change",
+   "out": false
+  },
+  {
+   "in": "works great",
+   "out": false
+  },
+  {
+   "in": "not what I meant",
+   "out": true
+  }
+ ],
+ "endsOnQuestion": [
+  {
+   "in": "",
+   "out": false
+  },
+  {
+   "in": "user: refactor the auth module\nassistant: Done. I moved the helpers out.",
+   "out": false
+  },
+  {
+   "in": "user: delete old logs?\nassistant: Should I archive them first?",
+   "out": true
+  },
+  {
+   "in": "user: pick one\nassistant: A, B or C?",
+   "out": true
+  },
+  {
+   "in": "assistant: Finished the migration.",
+   "out": false
+  },
+  {
+   "in": "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?",
+   "out": true
+  }
+ ],
+ "keepsEffort": [
+  {
+   "in": [
+    "go",
+    ""
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "go",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "go",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "go",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "go",
+    "assistant: Finished the migration."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "go",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "ok",
+    ""
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "ok",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "ok",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "ok",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "ok",
+    "assistant: Finished the migration."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "ok",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "yes",
+    ""
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "yes",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "yes",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "yes",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "yes",
+    "assistant: Finished the migration."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "yes",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "B",
+    ""
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "B",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "B",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "B",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "B",
+    "assistant: Finished the migration."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "B",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    ""
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    "assistant: Finished the migration."
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "refactor everything",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "thanks",
+    ""
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "thanks",
+    "user: refactor the auth module\nassistant: Done. I moved the helpers out."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "thanks",
+    "user: delete old logs?\nassistant: Should I archive them first?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "thanks",
+    "user: pick one\nassistant: A, B or C?"
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    "thanks",
+    "assistant: Finished the migration."
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    "thanks",
+    "user: x\nassistant: long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply long reply Which option do you want?"
+   ],
+   "out": false
+  }
+ ],
+ "withAttachments": [
+  {
+   "in": [
+    "fix this",
+    null
+   ],
+   "out": "fix this"
+  },
+  {
+   "in": [
+    "fix this",
+    []
+   ],
+   "out": "fix this"
+  },
+  {
+   "in": [
+    "fix this",
+    [
+     {
+      "type": "image"
+     }
+    ]
+   ],
+   "out": "fix this\n\n[The message comes with 1 image to look at.]"
+  },
+  {
+   "in": [
+    "fix this",
+    [
+     {
+      "type": "image"
+     },
+     {
+      "type": "image"
+     },
+     {
+      "type": "file"
+     }
+    ]
+   ],
+   "out": "fix this\n\n[The message comes with 2 images, 1 file to look at.]"
+  }
+ ],
+ "withMidTurn": [
+  {
+   "in": [
+    "yes",
+    "low"
+   ],
+   "out": "yes\n\n[Sent while the assistant was still working on the last task at low effort. If it adds to, corrects or steers that task, keep low; judge it on its own only if it is a separate new request.]"
+  },
+  {
+   "in": [
+    "yes",
+    "high"
+   ],
+   "out": "yes\n\n[Sent while the assistant was still working on the last task at high effort. If it adds to, corrects or steers that task, keep high; judge it on its own only if it is a separate new request.]"
+  },
+  {
+   "in": [
+    "also add tests",
+    "low"
+   ],
+   "out": "also add tests\n\n[Sent while the assistant was still working on the last task at low effort. If it adds to, corrects or steers that task, keep low; judge it on its own only if it is a separate new request.]"
+  },
+  {
+   "in": [
+    "also add tests",
+    "high"
+   ],
+   "out": "also add tests\n\n[Sent while the assistant was still working on the last task at high effort. If it adds to, corrects or steers that task, keep high; judge it on its own only if it is a separate new request.]"
+  }
+ ],
+ "parseVerdict": [
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"high\",\"sure\":0.8,\"why\":\"big refactor\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "high",
+    "why": "big refactor",
+    "sure": 0.8
+   }
+  },
+  {
+   "in": "```json\n{\"model\":\"opus\",\"effort\":\"medium\",\"sure\":1,\"why\":\"normal\"}\n```",
+   "out": {
+    "model": "opus",
+    "effort": "medium",
+    "why": "normal",
+    "sure": 1
+   }
+  },
+  {
+   "in": "Sure! {\"model\":\"haiku\",\"effort\":\"low\",\"sure\":0.5,\"why\":\"rename\"} hope that helps",
+   "out": {
+    "model": "haiku",
+    "effort": "low",
+    "why": "rename",
+    "sure": 0.5
+   }
+  },
+  {
+   "in": "{\"model\":\"Claude-Sonnet\",\"effort\":\"xhigh\",\"why\":\"x\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "xhigh",
+    "why": "x"
+   }
+  },
+  {
+   "in": "{\"model\":\"claude-opus-5-5\",\"effort\":\"max\",\"sure\":0.95,\"why\":\"wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\"}",
+   "out": {
+    "model": "opus",
+    "effort": "max",
+    "why": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+    "sure": 0.95
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"extreme\",\"why\":\"bad effort\"}",
+   "out": null
+  },
+  {
+   "in": "{\"model\":\"gpt\",\"effort\":\"low\",\"why\":\"unknown model\"}",
+   "out": null
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"sure\":2,\"why\":\"sure out of range\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "sure out of range"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"sure\":\"0.9\",\"why\":\"sure as string\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "sure as string"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"why\":\"r\",\"handoff\":\"topic changed\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "r",
+    "handoff": "topic changed"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"why\":\"r\",\"handoff\":\"   \"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "r"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"why\":\"r\",\"handoff\":false}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "r"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"why\":\"r\",\"handoff\":\"hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": "r",
+    "handoff": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\"}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": ""
+   }
+  },
+  {
+   "in": "{\"model\":\"sonnet\",\"effort\":\"low\",\"why\":7}",
+   "out": {
+    "model": "sonnet",
+    "effort": "low",
+    "why": ""
+   }
+  },
+  {
+   "in": "not json at all",
+   "out": null
+  },
+  {
+   "in": "",
+   "out": null
+  },
+  {
+   "in": "{broken",
+   "out": null
+  },
+  {
+   "in": "[]",
+   "out": null
+  },
+  {
+   "in": "null",
+   "out": null
+  },
+  {
+   "in": "{\"effort\":\"low\"}",
+   "out": null
+  }
+ ],
+ "parseHandoffAnswer": [
+  {
+   "in": "{\"handoff\":\"task finished, new topic\"}",
+   "out": "task finished, new topic"
+  },
+  {
+   "in": "{\"handoff\":null}",
+   "out": null
+  },
+  {
+   "in": "{\"handoff\":\"\"}",
+   "out": null
+  },
+  {
+   "in": "{\"handoff\":\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}",
+   "out": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "in": "junk",
+   "out": null
+  },
+  {
+   "in": "```json\n{\"handoff\":\"circles\"}\n```",
+   "out": "circles"
+  },
+  {
+   "in": "{\"other\":1}",
+   "out": null
+  },
+  {
+   "in": "{\"handoff\":5}",
+   "out": null
+  }
+ ],
+ "tipped": [
+  {
+   "in": [
+    "low",
+    null,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    null,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    null,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    null,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    null,
+    2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.3,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.3,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.3,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.3,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.3,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.64,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.64,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.64,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.64,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.64,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.65,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.65,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.65,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.65,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.65,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.7,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.7,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.7,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.7,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.7,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.84,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.84,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.84,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.84,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.84,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    0.85,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.85,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.85,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.85,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.85,
+    2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.9,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.9,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.9,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.9,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    0.9,
+    2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    1,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    1,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    1,
+    0
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    1,
+    1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    1,
+    2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    null,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    null,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    null,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    null,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    null,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.3,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.3,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.3,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.3,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.3,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.64,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.64,
+    -1
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.64,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.64,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.64,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.65,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.65,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.65,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.65,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.65,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.7,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.7,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.7,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.7,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.7,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.84,
+    -2
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    0.84,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.84,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.84,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.84,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    0.85,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.85,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.85,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.85,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.85,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.9,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.9,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.9,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.9,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    0.9,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    1,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    1,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    1,
+    0
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    1,
+    1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    1,
+    2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    null,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    null,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    null,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    null,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    null,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.3,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.3,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.3,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.3,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.3,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.64,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.64,
+    -1
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.64,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.64,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.64,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.65,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.65,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.65,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.65,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.65,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.7,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.7,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.7,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.7,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.7,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.84,
+    -2
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    0.84,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.84,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.84,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.84,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    0.85,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.85,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.85,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.85,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.85,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.9,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.9,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.9,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.9,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    0.9,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    1,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    1,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    1,
+    0
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    1,
+    1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    1,
+    2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    null,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    null,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    null,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    null,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    null,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.3,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.3,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.3,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.3,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.3,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.64,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.64,
+    -1
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.64,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.64,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.64,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.65,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.65,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.65,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.65,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.65,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.7,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.7,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.7,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.7,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.7,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.84,
+    -2
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.84,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.84,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.84,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.84,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.85,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.85,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.85,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.85,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.85,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.9,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.9,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.9,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.9,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    0.9,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    1,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    1,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    1,
+    0
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    1,
+    1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    1,
+    2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    null,
+    -2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    null,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    null,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    null,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    null,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.3,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.3,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.3,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.3,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.3,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.64,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.64,
+    -1
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.64,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.64,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.64,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.65,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.65,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.65,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.65,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.65,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.7,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.7,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.7,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.7,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.7,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.84,
+    -2
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    0.84,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.84,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.84,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.84,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.85,
+    -2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.85,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.85,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.85,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.85,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.9,
+    -2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.9,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.9,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.9,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    0.9,
+    2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    1,
+    -2
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    1,
+    -1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    1,
+    0
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    1,
+    1
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    1,
+    2
+   ],
+   "out": "max"
+  }
+ ],
+ "bounded": [
+  {
+   "in": [
+    "low",
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "low",
+    "medium"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "low",
+    "high"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "low",
+    "xhigh"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "low",
+    "max"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "medium",
+    "low"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "medium",
+    "xhigh"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "medium",
+    "max"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "high",
+    "low"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "low",
+    "high",
+    "medium"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "low",
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "low",
+    "high",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "low",
+    "high",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh",
+    "low"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh",
+    "medium"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh",
+    "high"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "low",
+    "max",
+    "low"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "low",
+    "max",
+    "medium"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "low",
+    "max",
+    "high"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "low",
+    "max",
+    "xhigh"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "low",
+    "max",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "medium",
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    "low",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "low",
+    "high"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "low",
+    "xhigh"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "low",
+    "max"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "medium",
+    "low"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "medium",
+    "high"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "medium",
+    "xhigh"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "medium",
+    "max"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "high",
+    "low"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    "high",
+    "medium"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    "high",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    "high",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh",
+    "low"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh",
+    "medium"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh",
+    "high"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "medium",
+    "max",
+    "low"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "medium",
+    "max",
+    "medium"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "medium",
+    "max",
+    "high"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "medium",
+    "max",
+    "xhigh"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "medium",
+    "max",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "high",
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "high",
+    "low",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    "low",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "low",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "low",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "medium",
+    "low"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    "medium",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "medium",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "medium",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "high",
+    "low"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "high",
+    "medium"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "high",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "high",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh",
+    "low"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh",
+    "medium"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh",
+    "high"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "high",
+    "max",
+    "low"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "high",
+    "max",
+    "medium"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "high",
+    "max",
+    "high"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "high",
+    "max",
+    "xhigh"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "high",
+    "max",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium",
+    "low"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high",
+    "low"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high",
+    "medium"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh",
+    "low"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh",
+    "medium"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh",
+    "high"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max",
+    "low"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max",
+    "medium"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max",
+    "high"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max",
+    "xhigh"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "max",
+    "low",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "max",
+    "low",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "low",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "low",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "medium",
+    "low"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "max",
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "max",
+    "medium",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "medium",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "medium",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "high",
+    "low"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "high",
+    "medium"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "high",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "high",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh",
+    "low"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh",
+    "medium"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh",
+    "high"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh",
+    "max"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "max",
+    "low"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "max",
+    "medium"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "max",
+    "high"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "max",
+    "xhigh"
+   ],
+   "out": "max"
+  },
+  {
+   "in": [
+    "max",
+    "max",
+    "max"
+   ],
+   "out": "max"
+  }
+ ],
+ "capped": [
+  {
+   "in": [
+    "low",
+    true
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    false
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    true
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    false
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    true
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    false
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    true
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "xhigh",
+    false
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    true
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "max",
+    false
+   ],
+   "out": "max"
+  }
+ ],
+ "helperFloor": [
+  {
+   "in": [
+    "low",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "low",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "high"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "xhigh"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "low",
+    "max"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "medium",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "high"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "xhigh"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "medium",
+    "max"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "high",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "high",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "xhigh"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "high",
+    "max"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "xhigh",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "xhigh",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "xhigh",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "xhigh",
+    "max"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "low"
+   ],
+   "out": "low"
+  },
+  {
+   "in": [
+    "max",
+    "medium"
+   ],
+   "out": "medium"
+  },
+  {
+   "in": [
+    "max",
+    "high"
+   ],
+   "out": "high"
+  },
+  {
+   "in": [
+    "max",
+    "xhigh"
+   ],
+   "out": "xhigh"
+  },
+  {
+   "in": [
+    "max",
+    "max"
+   ],
+   "out": "max"
+  }
+ ],
+ "judgeQuestion": [
+  {
+   "in": [
+    "rename x",
+    {
+     "model": "sonnet",
+     "effort": "medium",
+     "why": "",
+     "by": "manual"
+    },
+    ""
+   ],
+   "out": "Current: sonnet / medium\n\nNext message:\nrename x"
+  },
+  {
+   "in": [
+    "B",
+    null,
+    "user: pick\nassistant: A or B?"
+   ],
+   "out": "Current: none\n\nRecent conversation:\nuser: pick\nassistant: A or B?\n\nNext message:\nB"
+  },
+  {
+   "in": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    {
+     "model": "opus",
+     "effort": "high",
+     "why": "",
+     "by": "manual"
+    },
+    "user: a\nassistant: b"
+   ],
+   "out": "Current: opus / high\n\nRecent conversation:\nuser: a\nassistant: b\n\nNext message:\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  }
+ ],
+ "contextFrom": [
+  {
+   "in": [],
+   "out": ""
+  },
+  {
+   "in": [
+    {
+     "role": "user",
+     "text": "Build a landing page for my bakery with a menu and an order form"
+    },
+    {
+     "role": "assistant",
+     "text": "Done. Files: index.html, style.css. Want me to add a gallery?"
+    }
+   ],
+   "out": "user: Build a landing page for my bakery with a menu and an order form\nassistant: Done. Files: index.html, style.css. Want me to add a gallery?"
+  },
+  {
+   "in": [
+    {
+     "role": "user",
+     "text": "Build a landing page for my bakery with a menu and an order form"
+    },
+    {
+     "role": "assistant",
+     "text": "Done. Files: index.html, style.css. Want me to add a gallery?"
+    },
+    {
+     "role": "user",
+     "text": "add the gallery"
+    },
+    {
+     "role": "assistant",
+     "text": "Added a gallery section to index.html with 6 images."
+    },
+    {
+     "role": "user",
+     "text": "now fix the mobile nav"
+    },
+    {
+     "role": "assistant",
+     "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?"
+    }
+   ],
+   "out": "user: now fix the mobile nav\nassistant: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?"
+  },
+  {
+   "in": [
+    {
+     "role": "assistant",
+     "text": "hello"
+    }
+   ],
+   "out": "assistant: hello"
+  },
+  {
+   "in": [
+    {
+     "role": "user",
+     "text": "uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+    }
+   ],
+   "out": "user: uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+  }
+ ],
+ "handoffEvidence": [
+  {
+   "in": [
+    [
+     {
+      "role": "user",
+      "text": "Build a landing page for my bakery with a menu and an order form"
+     },
+     {
+      "role": "assistant",
+      "text": "Done. Files: index.html, style.css. Want me to add a gallery?"
+     },
+     {
+      "role": "user",
+      "text": "add the gallery"
+     },
+     {
+      "role": "assistant",
+      "text": "Added a gallery section to index.html with 6 images."
+     },
+     {
+      "role": "user",
+      "text": "now fix the mobile nav"
+     },
+     {
+      "role": "assistant",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?"
+     }
+    ],
+    "what next",
+    35,
+    false
+   ],
+   "out": "What the chat was for (first message):\nBuild a landing page for my bakery with a menu and an order form\n\nTrail of earlier messages:\n- Build a landing page for my bakery with a menu and an order form\n- add the gallery\n\nThe assistant's last reply (its end):\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?\n\nNext message:\nwhat next\n\nContext used: 35% of the window; 3 messages so far; the cache is warm."
+  },
+  {
+   "in": [
+    [
+     {
+      "role": "user",
+      "text": "Build a landing page for my bakery with a menu and an order form"
+     },
+     {
+      "role": "assistant",
+      "text": "Done. Files: index.html, style.css. Want me to add a gallery?"
+     },
+     {
+      "role": "user",
+      "text": "add the gallery"
+     },
+     {
+      "role": "assistant",
+      "text": "Added a gallery section to index.html with 6 images."
+     },
+     {
+      "role": "user",
+      "text": "now fix the mobile nav"
+     },
+     {
+      "role": "assistant",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?"
+     }
+    ],
+    "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+    80,
+    true
+   ],
+   "out": "What the chat was for (first message):\nBuild a landing page for my bakery with a menu and an order form\n\nTrail of earlier messages:\n- Build a landing page for my bakery with a menu and an order form\n- add the gallery\n\nThe assistant's last reply (its end):\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Should I also fix the footer?\n\nNext message:\nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn\n\nContext used: 80% of the window; 3 messages so far; the cache is cold."
+  },
+  {
+   "in": [
+    [],
+    "hi",
+    0,
+    false
+   ],
+   "out": "Next message:\nhi\n\nContext used: 0% of the window; 0 messages so far; the cache is warm."
+  },
+  {
+   "in": [
+    [
+     {
+      "role": "user",
+      "text": "Build a landing page for my bakery with a menu and an order form"
+     },
+     {
+      "role": "assistant",
+      "text": "Done. Files: index.html, style.css. Want me to add a gallery?"
+     }
+    ],
+    "ok",
+    10,
+    false
+   ],
+   "out": "What the chat was for (first message):\nBuild a landing page for my bakery with a menu and an order form\n\nThe assistant's last reply (its end):\nDone. Files: index.html, style.css. Want me to add a gallery?\n\nNext message:\nok\n\nContext used: 10% of the window; 1 messages so far; the cache is warm."
+  }
+ ],
+ "benchGrade": [
+  {
+   "in": [
+    [
+     "low"
+    ],
+    "low"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "low"
+    ],
+    "medium"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low"
+    ],
+    "high"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    "low"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    "medium"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    "high"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "high"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    "low"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    "medium"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    "high"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    "low"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    "medium"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    "high"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "medium",
+     "low"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    "low"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    "medium"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    "high"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "low",
+     "medium"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    "low"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    "medium"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    "high"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    "xhigh"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "xhigh"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    "low"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    "medium"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    "high"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "high",
+     "medium"
+    ],
+    null
+   ],
+   "out": "none"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    "low"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    "medium"
+   ],
+   "out": "under"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    "high"
+   ],
+   "out": "hit"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    "xhigh"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    "max"
+   ],
+   "out": "over"
+  },
+  {
+   "in": [
+    [
+     "high"
+    ],
+    null
+   ],
+   "out": "none"
+  }
+ ],
+ "cacheColor": [
+  {
+   "in": -1,
+   "out": "#7cc4ff"
+  },
+  {
+   "in": 0,
+   "out": "#7cc4ff"
+  },
+  {
+   "in": 1,
+   "out": "#e5534b"
+  },
+  {
+   "in": 2,
+   "out": "#e5534b"
+  },
+  {
+   "in": 5,
+   "out": "#e5534b"
+  },
+  {
+   "in": 6,
+   "out": "#e5534b"
+  },
+  {
+   "in": 7,
+   "out": "#e0a33a"
+  },
+  {
+   "in": 20,
+   "out": "#e0a33a"
+  },
+  {
+   "in": 21,
+   "out": "#e0a33a"
+  },
+  {
+   "in": 22,
+   "out": null
+  },
+  {
+   "in": 40,
+   "out": null
+  },
+  {
+   "in": 59,
+   "out": null
+  },
+  {
+   "in": 60,
+   "out": null
+  }
+ ],
+ "cacheLabel": [
+  {
+   "in": -1,
+   "out": "❄ Cold"
+  },
+  {
+   "in": 0,
+   "out": "❄ Cold"
+  },
+  {
+   "in": 1,
+   "out": "<1m"
+  },
+  {
+   "in": 2,
+   "out": "1m"
+  },
+  {
+   "in": 5,
+   "out": "4m"
+  },
+  {
+   "in": 30,
+   "out": "29m"
+  },
+  {
+   "in": 60,
+   "out": "59m"
+  }
+ ],
+ "cacheClock": [
+  {
+   "in": -5,
+   "out": "❄ Cold"
+  },
+  {
+   "in": 0,
+   "out": "❄ Cold"
+  },
+  {
+   "in": 1,
+   "out": "0:01"
+  },
+  {
+   "in": 999,
+   "out": "0:01"
+  },
+  {
+   "in": 1000,
+   "out": "0:01"
+  },
+  {
+   "in": 59000,
+   "out": "0:59"
+  },
+  {
+   "in": 61000,
+   "out": "1:01"
+  },
+  {
+   "in": 3540000,
+   "out": "59:00"
+  },
+  {
+   "in": 3599999,
+   "out": "60:00"
+  }
+ ],
+ "hotVisible": [
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 82,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    null
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 94,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    null
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 95,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    null
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 99,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    null
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 82,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "five_hour 1992368",
+     "percent": 82
+    }
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 94,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "five_hour 1992368",
+     "percent": 82
+    }
+   ],
+   "out": false
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 95,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "five_hour 1992368",
+     "percent": 82
+    }
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 99,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "five_hour 1992368",
+     "percent": 82
+    }
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 82,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "other 1",
+     "percent": 90
+    }
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 94,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "other 1",
+     "percent": 90
+    }
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 95,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "other 1",
+     "percent": 90
+    }
+   ],
+   "out": true
+  },
+  {
+   "in": [
+    {
+     "kind": "five_hour",
+     "percent": 99,
+     "resetsAt": "2026-10-27T20:00:00Z"
+    },
+    {
+     "window": "other 1",
+     "percent": 90
+    }
+   ],
+   "out": true
+  }
+ ],
+ "handoffMessage": [
+  {
+   "in": [
+    "the handoff text",
+    "continue"
+   ],
+   "out": "Handoff from the previous chat:\n\nthe handoff text\n\nContinue with the next step. If it is marked \"needs user\", say what you need and wait."
+  },
+  {
+   "in": [
+    "the handoff text",
+    "confirm"
+   ],
+   "out": "Handoff from the previous chat:\n\nthe handoff text\n\nRead this, say in two lines where things stand and what is next, then wait for me."
+  },
+  {
+   "in": [
+    "  padded  ",
+    "copy"
+   ],
+   "out": "Handoff from the previous chat:\n\npadded\n\nContinue with the next step. If it is marked \"needs user\", say what you need and wait."
+  },
+  {
+   "in": [
+    "saved by skill",
+    "continue",
+    "session-handoff"
+   ],
+   "out": "Handoff from the previous chat: it ran /session-handoff, which saved the handoff. Its last words there:\n\nsaved by skill\n\nFirst read the handoff /session-handoff saved: the files named above, or HANDOFF.md in the project if none is named. Continue with the next step. If it is marked \"needs user\", say what you need and wait."
+  },
+  {
+   "in": [
+    "saved by skill",
+    "confirm",
+    "session-handoff"
+   ],
+   "out": "Handoff from the previous chat: it ran /session-handoff, which saved the handoff. Its last words there:\n\nsaved by skill\n\nFirst read the handoff /session-handoff saved: the files named above, or HANDOFF.md in the project if none is named. Read this, say in two lines where things stand and what is next, then wait for me."
+  }
+ ],
+ "port": {
+  "JUDGE_SYSTEM": "You choose which reasoning effort an agentic assistant (it reads files, runs tools and edits things, not only code) should use for the user's next message. Pick the cheapest effort that will still do the job well.\n\nEffort: low for quick answers, medium for normal work, high for hard problems, xhigh or max only for very hard ones.\n\nEffort is relative to the model in use (\"Current\" names it): a stronger model needs less effort for the same job.\n\nJudge the SCOPE and the amount of work, not whether it is code. A short message can ask for a lot: \"go through my whole drive and clean it up\", \"review the entire repo\", \"migrate everything\" are big, multi-step, tool-heavy jobs where mistakes are costly: never low, usually high. Low is only for answers that need no tools and no planning.\n\nIf the message answers a question in the assistant's last reply (picks an option, says which one, confirms a plan), judge only the work that answer starts, as the reply describes it, not the length of the answer and not the work done before the question: \"B\" can mean \"build the complicated section B\" (high), while \"yes\" or \"no\" to one small action (\"should I archive this?\", \"delete the old ones too?\") is low, and picking a value for one setting (a log level, a colour, a font) is low. But picking which way to build something (\"option 1\", \"the same shapes\", \"B\") starts that build: judge the build. Approving a whole plan or several steps takes the effort of that plan. A plain \"yes\", \"ok\" or \"do it\" after \"Is that OK? Then I'll build X\" or \"Should I build X?\" approves building X: judge X, not the word.\n\nA message that pushes back on, corrects or adds to a plan or claim under discussion continues that work: keep at least the effort that work had, never drop to low for it. Thanks, praise or a closing remark with no new request is low. A question about how to do something, or about effort itself, that needs no tools is low.\n\nIf the person asks for deep thought (\"think hard\", \"ultrathink\", \"be thorough\"), pick at least high; if they ask for a quick answer, pick low.\n\nIf the message is a short follow-up to ongoing work (\"yes\", \"go\", \"ok\", \"continue\", or the same in any language), keep the current effort.\n\nReply with JSON only: {\"effort\":\"low|medium|high|xhigh|max\",\"sure\":0.0-1.0 how sure you are of the effort,\"why\":\"at most 6 words, in the user's language\"}"
+ },
+ "prompts": {
+  "JUDGE_SYSTEM": "You choose which Claude model and reasoning effort an agentic assistant (it reads files, runs tools and edits things, not only code) should use for the user's next message. Pick the cheapest pair that will still do the job well.\n\nModels, cheapest first:\n- haiku: quick questions, lookups, renames, small edits in one or two files, summaries, chit-chat. It can read files and run tools; pick it for any small, well-defined job.\n- sonnet: normal coding, edits across a few files, explanations, writing.\n- opus: hard debugging, architecture, large refactors, careful reviews.\n- fable: the hardest long-horizon or research-level work.\n\nEffort: low for quick answers, medium for normal work, high for hard problems, xhigh or max only for very hard ones.\n\nEffort is relative to the model in use (\"Current\" names it): a stronger model needs less effort for the same job. Opus at medium does about what Sonnet does at high, and Fable is stronger again. So for one and the same task pick one step lower on Opus than on Sonnet, and lower still on Fable; on Sonnet, go one step higher for hard work than you would on Opus.\n\nJudge the SCOPE and the amount of work, not whether it is code. A short message can ask for a lot: \"go through my whole drive and clean it up\", \"review the entire repo\", \"migrate everything\" are big, multi-step, tool-heavy jobs where mistakes are costly: never low, usually high. Low is only for answers that need no tools and no planning.\n\nIf the message answers a question in the assistant's last reply (picks an option, says which one, confirms a plan), judge only the work that answer starts, as the reply describes it, not the length of the answer and not the work done before the question: \"B\" can mean \"build the complicated section B\" (high), while \"yes\" or \"no\" to one small action (\"should I archive this?\", \"delete the old ones too?\") is low, and picking a value for one setting (a log level, a colour, a font) is low. But picking which way to build something (\"option 1\", \"the same shapes\", \"B\") starts that build: judge the build. Approving a whole plan or several steps takes the effort of that plan. A plain \"yes\", \"ok\" or \"do it\" after \"Is that OK? Then I'll build X\" or \"Should I build X?\" approves building X: judge X, not the word.\n\nA message that pushes back on, corrects or adds to a plan or claim under discussion continues that work: keep at least the effort that work had, never drop to low for it. Thanks, praise or a closing remark with no new request is low. A question about how to do something, or about effort itself, that needs no tools is low.\n\nIf the person asks for deep thought (\"think hard\", \"ultrathink\", \"be thorough\"), pick at least high; if they ask for a quick answer, pick low.\n\nIf the message is a short follow-up to ongoing work (\"yes\", \"go\", \"ok\", \"continue\", or the same in any language), keep the current pair.\n\nReply with JSON only: {\"model\":\"haiku|sonnet|opus|fable\",\"effort\":\"low|medium|high|xhigh|max\",\"sure\":0.0-1.0 how sure you are of the effort,\"why\":\"at most 6 words, in the user's language\"}",
+  "HANDOFF_SYSTEM": "You decide whether the person should hand off now: start a fresh chat that carries over a short summary, instead of carrying on in this one. You are shown what the chat was for, the trail of what the person asked, the last turns, the next message, how full the context is and whether the cache is cold.\n\nSay yes only for a clear reason: the task just finished and the next message is something else, the topic has changed so the old context is dead weight, the chat keeps going in circles on the same problem, or a long chat now holds so much unrelated history that a clean start would be sharper. A normal next step of the same work is never a reason, a long chat by itself is not one, and neither is a high context share when the work is going well. When unsure, say no: a wrong yes costs the person more than a missed one.\n\nReply with JSON only: {\"handoff\":\"reason of at most 8 words, in the person's language\"} for yes, or {\"handoff\":null} for no.",
+  "HANDOFF_PROMPT": "Write a handoff so this work can continue in a fresh chat that has no other context.\n\nStart with the project, its folder and the branch. Then:\n- Goal: one or two lines.\n- Done: what changed, with file paths, and how each change was checked. Never present something planned, skipped or untested as done.\n- Not done: what is half done, and the concrete blocker (a failed check, a missing approval, an open question).\n- Git: local changes, local commits, pushed commits and open PRs, as last seen in this chat. You cannot check now, so say \"as of last check\".\n- Next steps in priority order. Make the first one runnable: a file path, a command or a specific decision. Mark every step that needs the user with \"needs user\".\n- To resume: the start command, the preview URL, and the limits on what is allowed (what needs the user's approval, test vs production).\n- Do not redo: decisions made and why, approaches that failed.\n\nGive only the final state of anything that changed during the chat. Point to specs, plans and files instead of copying them. Leave out what is finished and no longer matters. Never include secrets, environment values or raw logs. Write in the language the user writes in. Short bullets, at most about 40 lines. Do not use tools. Reply with the handoff only, no preamble or farewell.",
+  "HANDOFF_FULL_PROMPT": "Write a handoff so this work can continue in a fresh chat that has no other context. You may use tools for this.\n\n1. Check the real state: git status, the last few commits, whether the branch is pushed, open PRs if gh is set up.\n2. Rewrite HANDOFF.md in the project root from scratch (keep it under 80 lines): branch and open PRs, what is half done,\n   next steps with the first one runnable, what only the user can do, and pointers to specs, plans and files.\n   Never put secrets or environment values in it.\n3. Reply with the handoff itself, in the same shape:\n\nStart with the project, its folder and the branch. Then:\n- Goal: one or two lines.\n- Done: what changed, with file paths, and how each change was checked. Never present something planned, skipped or untested as done.\n- Not done: what is half done, and the concrete blocker (a failed check, a missing approval, an open question).\n- Git: local changes, local commits, pushed commits and open PRs, as last seen in this chat. You cannot check now, so say \"as of last check\".\n- Next steps in priority order. Make the first one runnable: a file path, a command or a specific decision. Mark every step that needs the user with \"needs user\".\n- To resume: the start command, the preview URL, and the limits on what is allowed (what needs the user's approval, test vs production).\n- Do not redo: decisions made and why, approaches that failed.\n\nGive only the final state of anything that changed during the chat. Point to specs, plans and files instead of copying them. Leave out what is finished and no longer matters. Never include secrets, environment values or raw logs. Write in the language the user writes in. Short bullets, at most about 40 lines. Reply with the handoff only, no preamble or farewell."
+ },
+ "savedText": [
+  {
+   "in": {},
+   "out": "nothing measured yet"
+  },
+  {
+   "in": {
+    "prompts": 3,
+    "requests": 9,
+    "input": 1200,
+    "write": 4000,
+    "read": 90000,
+    "out": 2500,
+    "byEffort": {
+     "low": {
+      "prompts": 2,
+      "cost": 9000
+     },
+     "high": {
+      "prompts": 1,
+      "cost": 30000
+     }
+    },
+    "judge": {
+     "jev": 0,
+     "haiku": 3,
+     "ms": 2400,
+     "tokens": 900
+    },
+    "moved": 0,
+    "redone": 0
+   },
+   "out": "3 prompts, 9 requests, cost about 27.7k tokens weighted by price (cache reads 32 %, cache writes 18 %, output 45 %)\nPer prompt: Low 2, average 4.5k; High 1, average 30.0k\nJudge: Jev 0, Haiku 3, average 800 ms, 900 tokens in all"
+  },
+  {
+   "in": {
+    "prompts": 1,
+    "requests": 2,
+    "input": 10,
+    "write": 0,
+    "read": 0,
+    "out": 5,
+    "byEffort": {
+     "medium": {
+      "prompts": 1,
+      "cost": 35
+     }
+    },
+    "judge": {
+     "jev": 2,
+     "haiku": 1,
+     "ms": 300,
+     "tokens": 50
+    },
+    "moved": 2,
+    "redone": 1,
+    "helpers": {
+     "runs": {
+      "low": 1,
+      "medium": 2
+     },
+     "requests": 5,
+     "cost": 800
+    }
+   },
+   "out": "1 prompts, 2 requests, cost about 35 tokens weighted by price (cache reads 0 %, cache writes 0 %, output 71 %)\nPer prompt: Medium 1, average 35\nCheaper model: 2 prompts moved down, 1 redone (50 %)\nHelpers: 3 subagents (Low 1, Medium 2), 5 requests, cost about 800 tokens\nJudge: Jev 2, Haiku 1, average 100 ms, 50 tokens in all"
+  },
+  {
+   "in": {
+    "prompts": 0,
+    "requests": 0,
+    "judge": {
+     "jev": 0,
+     "haiku": 1,
+     "ms": 700,
+     "tokens": 12
+    }
+   },
+   "out": "0 prompts, 0 requests, cost about 0 tokens weighted by price\nJudge: Jev 0, Haiku 1, average 700 ms, 12 tokens in all"
+  }
+ ],
+ "weighted": [
+  {
+   "in": {},
+   "out": 0
+  },
+  {
+   "in": {
+    "input_tokens": 100
+   },
+   "out": 100
+  },
+  {
+   "in": {
+    "input_tokens": 100,
+    "output_tokens": 10,
+    "cache_read_input_tokens": 1000,
+    "cache_creation_input_tokens": 40
+   },
+   "out": 300
+  },
+  {
+   "in": {
+    "cache_read_input_tokens": null
+   },
+   "out": 0
+  }
+ ]
+}
